@@ -1,0 +1,19 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+.idea/
+.vscode/
+
+# Generated runs and source inputs
+Results/
+raw_JSONL_trajectories_examples/
+data/credit/raw_home_credit/
+*.parquet

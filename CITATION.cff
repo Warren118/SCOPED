@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use SCOPED-Hiring, please cite the associated EMNLP 2026 paper."
+title: "Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems"
+type: software
+authors:
+  - family-names: Zhao
+    given-names: Yiran
+  - family-names: Chen
+    given-names: Yufei
+  - family-names: Wu
+    given-names: Jiafei
+  - family-names: Fang
+    given-names: Liming
+  - family-names: Liu
+    given-names: Zhe
+  - family-names: Xu
+    given-names: Xiaogang
+  - family-names: Zhou
+    given-names: Lu
+date-released: 2026-08-25
+license: Apache-2.0
