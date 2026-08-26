@@ -19,7 +19,7 @@ deliberation dynamics, and system design choices.
 - BRI validation code and policy-stability analysis code.
 
 The released aggregate result tables live in the companion Hugging Face dataset:
-**SCOPED-Hiring-Trajectories**. This repository deliberately does **not** include
+**[SCOPED-Hiring-Trajectories](https://huggingface.co/datasets/warrenlvlmgo/SCOPED-Hiring-Trajectories)**. This repository deliberately does **not** include
 API keys, source CV data, complete raw trajectories, or representative raw
 trajectory examples.
 
@@ -27,9 +27,9 @@ trajectory examples.
 
 ```bash
 python -m venv .venv
-.venv\\Scripts\\activate
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-copy .env.example .env.credit
+Copy-Item .env.example .env.credit
 ```
 
 Set the provider credentials and model endpoint in `.env.credit`, then run a
